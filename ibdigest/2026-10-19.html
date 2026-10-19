@@ -1,0 +1,74 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>외사 리포트 데일리 2026-10-19</title>
+<style>
+:root{--bg:#f4f4f1;--card:#fff;--ink:#0b0b0b;--sub:#52514e;--mute:#898781;--line:#e1e0d9;--acc:#1f4f8a;--accbg:#e8eef7;
+--up:#1f7a4d;--upbg:#e3f2ea;--dn:#b3261e;--dnbg:#fbe9e7;--new:#6a3fa0;--newbg:#f0e9f8;--gold:#b7791f}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0d0d0d;--card:#171716;--ink:#f3f2ee;--sub:#c3c2b7;
+--mute:#8d8c86;--line:#2c2c2a;--acc:#8ab4f0;--accbg:#1b2533;--up:#5cc08f;--upbg:#14261d;--dn:#f08a80;--dnbg:#2d1715;
+--new:#c4a5ef;--newbg:#241b30;--gold:#e5b85c}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.6 "Noto Sans KR","Noto Sans CJK KR","Apple SD Gothic Neo",system-ui,sans-serif;
+-webkit-text-size-adjust:100%}
+.wrap{max-width:920px;margin:0 auto;padding:20px 16px 40px}
+header h1{font-size:22px;margin:0 0 2px;letter-spacing:-.3px}
+header .meta{color:var(--sub);font-size:13px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 6px}
+.chip{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:4px 12px;font-size:13px}
+.chip b{font-variant-numeric:tabular-nums}
+.note{font-size:12px;color:var(--mute);margin:8px 0 0}
+h2{font-size:17px;margin:28px 0 10px;padding-bottom:6px;border-bottom:2px solid var(--ink)}
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch;background:var(--card);border:1px solid var(--line);border-radius:10px}
+table{border-collapse:collapse;width:100%;font-size:13.5px;font-variant-numeric:tabular-nums}
+th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap;vertical-align:top}
+th{font-size:12px;color:var(--sub);font-weight:600;background:transparent}
+tr:last-child td{border-bottom:0}
+td.r,th.r{text-align:right}
+.up{color:var(--up)}.dn{color:var(--dn)}.na{color:var(--mute)}.st{color:var(--gold);letter-spacing:1px}
+.pill{display:inline-block;border-radius:6px;padding:1px 7px;font-size:12px;font-weight:600}
+.p-up{background:var(--upbg);color:var(--up)}.p-dn{background:var(--dnbg);color:var(--dn)}
+.p-new{background:var(--newbg);color:var(--new)}.p-mid{background:var(--accbg);color:var(--acc)}
+.tk{margin-top:30px}
+.tkh{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 14px;border-bottom:2px solid var(--ink);padding-bottom:8px}
+.tkh h2{border:0;margin:0;padding:0}
+.tkh .tick{color:var(--sub);font-size:13px}
+.score{margin-left:auto;display:flex;align-items:center;gap:8px;font-size:13px;color:var(--sub)}
+.score b{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:8px;background:var(--acc);color:#fff;font-size:16px}
+.tkm{color:var(--sub);font-size:13px;margin:6px 0 10px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:12px 0;break-inside:avoid}
+.ch{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px}
+.ch .ib{font-weight:700;font-size:16px}
+.ch .hl{flex-basis:100%;color:var(--sub);font-size:14px}
+.nums{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:12px 0}
+.nums div{background:var(--bg);border-radius:8px;padding:8px 10px}
+.nums small{display:block;color:var(--mute);font-size:11.5px}
+.nums span.v{font-weight:600;font-variant-numeric:tabular-nums}
+.four{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.four div{border-left:3px solid var(--acc);padding:2px 0 2px 10px}
+.four h4{margin:0 0 2px;font-size:12.5px;color:var(--acc)}
+.four p{margin:0;font-size:14px}
+.risk{margin:10px 0 0;font-size:13.5px}
+.risk b{color:var(--dn);font-size:12.5px}
+.risk ul{margin:2px 0 0;padding-left:18px}
+.src{margin-top:10px;font-size:12.5px;color:var(--sub)}
+.src a{color:var(--acc);text-decoration:none;word-break:break-all}
+.cmt{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin:12px 0;font-size:13.5px}
+.cmt h4{margin:0 0 4px;font-size:13.5px}.cmt ul{margin:0;padding-left:18px}.cmt li{margin:4px 0}.cmt a{color:var(--acc);font-size:12.5px}
+.empty{background:var(--card);border:1px dashed var(--line);border-radius:12px;padding:14px 16px;color:var(--sub);font-size:14px;margin-top:10px}
+footer{margin-top:34px;font-size:12px;color:var(--mute)}
+footer ul{padding-left:18px;margin:4px 0}
+.disc{margin-top:12px;padding:10px 12px;border-radius:8px;background:var(--card);border:1px solid var(--line);color:var(--sub);font-size:12.5px}
+@media (max-width:560px){.nums{grid-template-columns:1fr 1fr}.four{grid-template-columns:1fr}.score{margin-left:0}
+header h1{font-size:19px}th,td{padding:7px 8px}}
+</style></head><body><div class="wrap">
+<header><h1>IVY 외사 리포트 데일리 — 2026-10-19</h1>
+<div class="meta">외국계 IB 리포트 보도 정리 · 생성 2026-10-19 09:34 KST</div><div class="chips"><span class="chip">리포트 <b>4</b>건</span><span class="chip">종목 <b>2</b>/5</span><span class="chip">코멘트 <b>1</b>건</span><span class="chip">최고 <span class="st">★</span></span><span class="chip">수집 창 10/16 08:46 ~ 10/19 09:33 KST</span></div>
+<p class="note">외사 시그널 점수(1~5)와 ★는 의견·목표가 변경과 괴리율로 자동 계산한 값이며 투자 판단 평점이 아닙니다.
+★ 기준: 의견 변경 ★★ · 목표가 ±10% ★ / ±25% ★★ · 신규 커버리지 ★ · 같은 종목 2곳 이상 같은 방향 ★★★.</p></header>
+<h2>핵심 요약</h2><div class="tw"><table><thead><tr><th>종목</th><th class="r">점수</th><th>IB</th><th>투자의견</th><th class="r">목표가 (변경률)</th><th class="r">괴리율</th><th>★</th></tr></thead><tbody><tr><td><b>CRCL</b><br><span class="na">NYSE:CRCL</span></td><td class="r">3</td><td>Bernstein</td><td>? → 확인 불가 <span class="pill p-new">신규</span></td><td class="r"><span class="na">확인 불가</span> → <b>$140</b><br><span class="na">—</span></td><td class="r"><span class="up">+70.3%</span></td><td><span class="st">★</span></td></tr><tr><td><b>CRCL</b><br><span class="na">NYSE:CRCL</span></td><td class="r">3</td><td>Mizuho</td><td>? → 확인 불가 <span class="pill p-mid">확인 불가</span></td><td class="r"><span class="na">확인 불가</span> → <b><span class="na">확인 불가</span></b><br><span class="na">—</span></td><td class="r"><span class="na">—</span></td><td><span class="na">—</span></td></tr><tr><td><b>CRCL</b><br><span class="na">NYSE:CRCL</span></td><td class="r">3</td><td>Morgan Stanley</td><td>? → 확인 불가 <span class="pill p-mid">확인 불가</span></td><td class="r"><span class="na">확인 불가</span> → <b><span class="na">확인 불가</span></b><br><span class="na">—</span></td><td class="r"><span class="na">—</span></td><td><span class="na">—</span></td></tr><tr><td><b>TSLA</b><br><span class="na">NASDAQ:TSLA</span></td><td class="r">3</td><td>J.P. Morgan</td><td>? → Neutral <span class="pill p-mid">유지</span></td><td class="r"><span class="na">확인 불가</span> → <b>$415</b><br><span class="na">—</span></td><td class="r"><span class="up">+17.0%</span></td><td><span class="na">—</span></td></tr></tbody></table></div>
+<section class="tk"><div class="tkh"><h2>에이피알</h2><span class="tick">에이피알 · KRX:278470</span></div><div class="empty">신규 외사 리포트(의견·목표가) 없음</div></section><section class="tk"><div class="tkh"><h2>CRCL</h2><span class="tick">Circle Internet Group · NYSE:CRCL</span><div class="score">외사 시그널 점수 <b>3</b>중립·혼재</div></div><div class="tkm">현재가 $82.22 <span class="na">(2026-10-17 05:00 기준, Yahoo)</span> · 리포트 3건 · 상향 IB 0 / 하향 IB 0 · 평균 괴리율 <span class="up">+70.3%</span></div><div class="card"><div class="ch"><span class="ib">Bernstein</span><span class="pill p-new">신규</span><span class="st">★</span><span class="na" style="margin-left:auto;font-size:12.5px">2026-10-18</span><span class="hl">Bernstein, Circle Internet 목표주가 140달러 제시</span></div><div class="nums"><div><small>투자의견</small><span class="v">? → 확인 불가</span></div><div><small>목표가</small><span class="v"><span class="na">확인 불가</span> → $140</span> <span class="na">—</span></div><div><small>현재가 대비 괴리율</small><span class="v"><span class="up">+70.3%</span></span></div></div><div class="four"><div><h4>① 실적 추정</h4><p><span class=na>기사 내 언급 없음</span></p></div><div><h4>② 수익성</h4><p><span class=na>기사 내 언급 없음</span></p></div><div><h4>③ 향후 전망</h4><p>9월 중 주요 촉매제들이 존재함.</p></div><div><h4>④ 투자의견</h4><p>목표주가 140달러 제시.</p></div></div><div class="risk"><b>리스크</b> <span class="na">기사 내 언급 없음</span></div><div class="src">출처: <a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxQM1czWDFadVk2UzNnOHhPR3U5NGoxLWtDdUNJQzdJV2M3RXA4dWlJSTAzT1dONWpsNGUzekZXZEk3TnYyb01NQlRJWFBsbFNFWUFhaDN5YVN6R3l4V2hPWl9RbE0tdk1Tam1IUE5ITVJudlRxdElrN0JNTDVTeFVqYTFpbkFqWURNN0RwYWl0SnBxUEZqcEhaeUJBTkFPWFZPQUZMTmxFNmhnUklRTjM4?oc=5" target="_blank" rel="noopener">Stocktwits 10/18 05:13</a></div></div><div class="card"><div class="ch"><span class="ib">Mizuho</span><span class="pill p-mid">확인 불가</span><span class="na">—</span><span class="na" style="margin-left:auto;font-size:12.5px">2026-10-18</span><span class="hl">Mizuho, Circle Internet 수익 모델 리스크로 투자의견 하향</span></div><div class="nums"><div><small>투자의견</small><span class="v">? → 확인 불가</span></div><div><small>목표가</small><span class="v"><span class="na">확인 불가</span> → <span class="na">확인 불가</span></span> <span class="na">—</span></div><div><small>현재가 대비 괴리율</small><span class="v"><span class="na">—</span></span></div></div><div class="four"><div><h4>① 실적 추정</h4><p><span class=na>기사 내 언급 없음</span></p></div><div><h4>② 수익성</h4><p><span class=na>기사 내 언급 없음</span></p></div><div><h4>③ 향후 전망</h4><p>수익 모델 관련 리스크가 존재함.</p></div><div><h4>④ 투자의견</h4><p><span class=na>기사 내 언급 없음</span></p></div></div><div class="risk"><b>리스크</b><ul><li>Revenue model risks</li></ul></div><div class="src">출처: <a href="https://news.google.com/rss/articles/CBMi6wFBVV95cUxPMHEteXJxSzdUcVlNQmxMYUJod1RXM05STjhXWV9aT3B3c1hTTU0xMU1OaWtRSXZ0TmFUTVZzRzlUbS0tejZkNldrcVZxZzRzSlVCbXg4M0Z4d0FRWWlHZUZlbU1nZ0VrWTU3Qkt5RElkWjdNdlNBRDdQbWh4Nm5RaEI0MTl1emNLMFRtYjFQWUdrUFRvc1RrZnNkQ3RqdTZjRDF5aWh6eDgwbmpTV3ZTbjlOSGVvMkpTVVRmOUJmdWhRYTJ1Qjk1aFJGcTYtanpuWjJ3cW9DVzU0aEZ5Q1FKU1d4RkxQOXVWV2tZ?oc=5" target="_blank" rel="noopener">Stocktwits 10/18 09:24</a></div></div><div class="card"><div class="ch"><span class="ib">Morgan Stanley</span><span class="pill p-mid">확인 불가</span><span class="na">—</span><span class="na" style="margin-left:auto;font-size:12.5px">2026-10-18</span><span class="hl">Morgan Stanley, 비트코인 및 CLARITY Act 압박으로 투자의견 하향</span></div><div class="nums"><div><small>투자의견</small><span class="v">? → 확인 불가</span></div><div><small>목표가</small><span class="v"><span class="na">확인 불가</span> → <span class="na">확인 불가</span></span> <span class="na">—</span></div><div><small>현재가 대비 괴리율</small><span class="v"><span class="na">—</span></span></div></div><div class="four"><div><h4>① 실적 추정</h4><p><span class=na>기사 내 언급 없음</span></p></div><div><h4>② 수익성</h4><p><span class=na>기사 내 언급 없음</span></p></div><div><h4>③ 향후 전망</h4><p>비트코인 가격 변동 및 CLARITY Act 관련 규제 압박이 부정적 요인으로 작용함.</p></div><div><h4>④ 투자의견</h4><p><span class=na>기사 내 언급 없음</span></p></div></div><div class="risk"><b>리스크</b><ul><li>Bitcoin pressure</li><li>CLARITY Act pressure</li></ul></div><div class="src">출처: <a href="https://news.google.com/rss/articles/CBMiwwFBVV95cUxNc0VnRVFoRHlDYnFBam9JQzVOd09aY2ZDQmFLM1ZqVHBUcm9SaU1DcFdJb1ZnT19JWDRLSDUtMUdCRURDczNXa0NHa2t0dHJkcU5QUGxiVXYyeHQ5dm9kNjA3Z0EzU3g3cjI2dS1xeWllMGRTcmZqTS12RTdVcThpUXVLVklXaEVkRU1nSUVteWdBSnJKTHI3RG9MXzM5OVFYWThQa2Vxb1RRME1BbHZmM09IekZTS25xaTFQTHJXTUZmdmc?oc=5" target="_blank" rel="noopener">Stocktwits 10/18 05:25</a></div></div></section><section class="tk"><div class="tkh"><h2>TSLA</h2><span class="tick">Tesla · NASDAQ:TSLA</span><div class="score">외사 시그널 점수 <b>3</b>중립·혼재</div></div><div class="tkm">현재가 $354.72 <span class="na">(2026-10-17 05:00 기준, Yahoo)</span> · 리포트 1건 · 상향 IB 0 / 하향 IB 0 · 평균 괴리율 <span class="up">+17.0%</span></div><div class="card"><div class="ch"><span class="ib">J.P. Morgan</span><span class="pill p-mid">유지</span><span class="na">—</span><span class="na" style="margin-left:auto;font-size:12.5px">2026-10-16</span><span class="hl">JP모건, 테슬라 투자의견 중립 및 목표가 415달러 유지</span></div><div class="nums"><div><small>투자의견</small><span class="v">? → Neutral</span></div><div><small>목표가</small><span class="v"><span class="na">확인 불가</span> → $415</span> <span class="na">—</span></div><div><small>현재가 대비 괴리율</small><span class="v"><span class="up">+17.0%</span></span></div></div><div class="four"><div><h4>① 실적 추정</h4><p><span class=na>기사 내 언급 없음</span></p></div><div><h4>② 수익성</h4><p><span class=na>기사 내 언급 없음</span></p></div><div><h4>③ 향후 전망</h4><p>테슬라와 스페이스X의 합병은 이론적으로 일관성이 있어 보이나, 중국 당국의 승인 리스크가 존재함.</p></div><div><h4>④ 투자의견</h4><p>투자의견 중립 및 목표주가 415달러 유지.</p></div></div><div class="risk"><b>리스크</b><ul><li>중국 당국 승인 리스크</li></ul></div><div class="src">출처: <a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxQSGdaUkJ2bHB1cWluVWdERFBaVVdxc3NyQVVSYWM2R2l5b05qR2diWElYeUtLV3Q1X3NTLVpnQU8yZElmSTBZbVVNNTZJOFRST0Q0akYycTk1Ti1sMmYtUVMwcUcyQURKZW1sRWJWWERxdjNoYlcxc21idmVIeHBQTmZ2aDZRbkg5amdLV2JHb1hydW82eU82MW5ITl9qd28zdWFzaXdn?oc=5" target="_blank" rel="noopener">Stocktwits 10/18 12:57</a> · <a href="https://news.google.com/rss/articles/CBMivgFBVV95cUxOUjB3ZzhpeXRxaFY3d2ZhamlSQk1LTzBsSDJoeTZtNkw5QXdQU01UYWJOdnEtV3dCZzFvTUZMd2JLQnF1QnpmYWhrRml3T3ZFaWtuM1RWVjNkdE82V0JvcVQ0bU44d3dLYjJwVUlHNmVsOVdrS1JYN3F5bkpzZC03Zk1ZNVZiMDVXRVZwcG1EY2ZqZkNsZThpcTJMbVphS1dyRlRDdTVlZXJQRkF2SDFneHZZZDVoczUycXExa09R?oc=5" target="_blank" rel="noopener">Investing.com 10/16 17:52</a> · <a href="https://news.google.com/rss/articles/CBMidEFVX3lxTE5HbEY5RDlneWptMV83VXhNQWNQREJXXzFucnFtbUpkS1NCM00zTFdVdGY1ek12SEE5Yi1vOVFhbV83czVYb3FDZEhjbE1Vd1ViRFJnbm50Q09uaFNlb3ZQUmNpSHQ1eHoyeWxBU2IyQjNmU2E2?oc=5" target="_blank" rel="noopener">Investing.com 한국어 10/16 17:43</a></div></div><div class="cmt"><h4>코멘트 <span class="na">(의견·목표가 없는 IB 전망 기사 — 점수·★ 계산 제외)</span></h4><ul><li><b>UBS</b> — UBS, 테슬라의 현재 시장 상황을 전술적으로 유리하다고 평가<br><span class=na>테슬라의 현재 시장 설정(setup)이 전술적으로 유리한 상태라고 평가함.</span> <a href="https://news.google.com/rss/articles/CBMiwgFBVV95cUxQaktOemM0cFRPbU40VkM4cDJHaWJscmFGcjFoSU9YbHpaczNuMzZMYUZ2NmlySEx4N3JUVXNTa0M0azVybEZpU21WWElmbDZ5NHVtN3lRUnNhX1RNT3F0WU9mX3NEVDRVa0hIWk1hcEpXLTRwbE92Uk0tdUprSmtmWEJrSGF0NDBDRUQxcWQyVDhoR2twd3lKX0t0VmpNYjh4TnBnaGY2ZjM0NHZxX2FZTnFubWU4RlBxdmx1Ty1saUlBQQ?oc=5" target="_blank" rel="noopener">Stocktwits</a></li></ul></div></section><section class="tk"><div class="tkh"><h2>LG전자</h2><span class="tick">LG전자 · KRX:066570</span></div><div class="empty">신규 외사 리포트(의견·목표가) 없음</div></section><section class="tk"><div class="tkh"><h2>하나머티리얼즈</h2><span class="tick">하나머티리얼즈 · KOSDAQ:166090</span></div><div class="empty">신규 외사 리포트(의견·목표가) 없음</div></section>
+<footer>
+<p>출처: Google News(한·영) 검색으로 찾은 언론 보도. 외사 리포트 원문(유료)은 수집하지 않으며, 보도되지 않은 리포트는 빠질 수 있습니다.
+수치는 기사 원문에 적힌 값만 사용하고 원문과 대조되지 않은 값은 비웠습니다. 현재가: Yahoo Finance.</p>
+<p>봇 ib_digest v1.0.2 · LLM gemini-3.1-flash-lite</p>
+<div class="disc">투자 참고용. 최종 판단은 본인 책임</div></footer>
+</div></body></html>
