@@ -1,0 +1,74 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>외사 리포트 데일리 2026-10-30</title>
+<style>
+:root{--bg:#f4f4f1;--card:#fff;--ink:#0b0b0b;--sub:#52514e;--mute:#898781;--line:#e1e0d9;--acc:#1f4f8a;--accbg:#e8eef7;
+--up:#1f7a4d;--upbg:#e3f2ea;--dn:#b3261e;--dnbg:#fbe9e7;--new:#6a3fa0;--newbg:#f0e9f8;--gold:#b7791f}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0d0d0d;--card:#171716;--ink:#f3f2ee;--sub:#c3c2b7;
+--mute:#8d8c86;--line:#2c2c2a;--acc:#8ab4f0;--accbg:#1b2533;--up:#5cc08f;--upbg:#14261d;--dn:#f08a80;--dnbg:#2d1715;
+--new:#c4a5ef;--newbg:#241b30;--gold:#e5b85c}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.6 "Noto Sans KR","Noto Sans CJK KR","Apple SD Gothic Neo",system-ui,sans-serif;
+-webkit-text-size-adjust:100%}
+.wrap{max-width:920px;margin:0 auto;padding:20px 16px 40px}
+header h1{font-size:22px;margin:0 0 2px;letter-spacing:-.3px}
+header .meta{color:var(--sub);font-size:13px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 6px}
+.chip{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:4px 12px;font-size:13px}
+.chip b{font-variant-numeric:tabular-nums}
+.note{font-size:12px;color:var(--mute);margin:8px 0 0}
+h2{font-size:17px;margin:28px 0 10px;padding-bottom:6px;border-bottom:2px solid var(--ink)}
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch;background:var(--card);border:1px solid var(--line);border-radius:10px}
+table{border-collapse:collapse;width:100%;font-size:13.5px;font-variant-numeric:tabular-nums}
+th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap;vertical-align:top}
+th{font-size:12px;color:var(--sub);font-weight:600;background:transparent}
+tr:last-child td{border-bottom:0}
+td.r,th.r{text-align:right}
+.up{color:var(--up)}.dn{color:var(--dn)}.na{color:var(--mute)}.st{color:var(--gold);letter-spacing:1px}
+.pill{display:inline-block;border-radius:6px;padding:1px 7px;font-size:12px;font-weight:600}
+.p-up{background:var(--upbg);color:var(--up)}.p-dn{background:var(--dnbg);color:var(--dn)}
+.p-new{background:var(--newbg);color:var(--new)}.p-mid{background:var(--accbg);color:var(--acc)}
+.tk{margin-top:30px}
+.tkh{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 14px;border-bottom:2px solid var(--ink);padding-bottom:8px}
+.tkh h2{border:0;margin:0;padding:0}
+.tkh .tick{color:var(--sub);font-size:13px}
+.score{margin-left:auto;display:flex;align-items:center;gap:8px;font-size:13px;color:var(--sub)}
+.score b{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:8px;background:var(--acc);color:#fff;font-size:16px}
+.tkm{color:var(--sub);font-size:13px;margin:6px 0 10px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:12px 0;break-inside:avoid}
+.ch{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px}
+.ch .ib{font-weight:700;font-size:16px}
+.ch .hl{flex-basis:100%;color:var(--sub);font-size:14px}
+.nums{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:12px 0}
+.nums div{background:var(--bg);border-radius:8px;padding:8px 10px}
+.nums small{display:block;color:var(--mute);font-size:11.5px}
+.nums span.v{font-weight:600;font-variant-numeric:tabular-nums}
+.four{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.four div{border-left:3px solid var(--acc);padding:2px 0 2px 10px}
+.four h4{margin:0 0 2px;font-size:12.5px;color:var(--acc)}
+.four p{margin:0;font-size:14px}
+.risk{margin:10px 0 0;font-size:13.5px}
+.risk b{color:var(--dn);font-size:12.5px}
+.risk ul{margin:2px 0 0;padding-left:18px}
+.src{margin-top:10px;font-size:12.5px;color:var(--sub)}
+.src a{color:var(--acc);text-decoration:none;word-break:break-all}
+.cmt{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin:12px 0;font-size:13.5px}
+.cmt h4{margin:0 0 4px;font-size:13.5px}.cmt ul{margin:0;padding-left:18px}.cmt li{margin:4px 0}.cmt a{color:var(--acc);font-size:12.5px}
+.empty{background:var(--card);border:1px dashed var(--line);border-radius:12px;padding:14px 16px;color:var(--sub);font-size:14px;margin-top:10px}
+footer{margin-top:34px;font-size:12px;color:var(--mute)}
+footer ul{padding-left:18px;margin:4px 0}
+.disc{margin-top:12px;padding:10px 12px;border-radius:8px;background:var(--card);border:1px solid var(--line);color:var(--sub);font-size:12.5px}
+@media (max-width:560px){.nums{grid-template-columns:1fr 1fr}.four{grid-template-columns:1fr}.score{margin-left:0}
+header h1{font-size:19px}th,td{padding:7px 8px}}
+</style></head><body><div class="wrap">
+<header><h1>IVY 외사 리포트 데일리 — 2026-10-30</h1>
+<div class="meta">외국계 IB 리포트 보도 정리 · 생성 2026-10-30 11:11 KST</div><div class="chips"><span class="chip">리포트 <b>0</b>건</span><span class="chip">종목 <b>0</b>/5</span><span class="chip">코멘트 <b>1</b>건</span><span class="chip">최고 <span class="na">—</span></span><span class="chip">수집 창 10/29 10:58 ~ 10/30 11:11 KST</span></div>
+<p class="note">외사 시그널 점수(1~5)와 ★는 의견·목표가 변경과 괴리율로 자동 계산한 값이며 투자 판단 평점이 아닙니다.
+★ 기준: 의견 변경 ★★ · 목표가 ±10% ★ / ±25% ★★ · 신규 커버리지 ★ · 같은 종목 2곳 이상 같은 방향 ★★★.</p></header>
+<h2>핵심 요약</h2><div class="empty">수집 창 안에 보도된 신규 외사 리포트가 없습니다. 관심종목: 에이피알(KRX:278470), CRCL(NYSE:CRCL), TSLA(NASDAQ:TSLA), LG전자(KRX:066570), 하나머티리얼즈(KOSDAQ:166090)</div>
+<section class="tk"><div class="tkh"><h2>에이피알</h2><span class="tick">에이피알 · KRX:278470</span></div><div class="empty">신규 외사 리포트(의견·목표가) 없음</div></section><section class="tk"><div class="tkh"><h2>CRCL</h2><span class="tick">Circle Internet Group · NYSE:CRCL</span></div><div class="empty">신규 외사 리포트(의견·목표가) 없음</div></section><section class="tk"><div class="tkh"><h2>TSLA</h2><span class="tick">Tesla · NASDAQ:TSLA</span></div><div class="empty">신규 외사 리포트(의견·목표가) 없음</div><div class="cmt"><h4>코멘트 <span class="na">(의견·목표가 없는 IB 전망 기사 — 점수·★ 계산 제외)</span></h4><ul><li><b>Wells Fargo</b> — 웰스파고, 사이버캡 출시가 투자자 기대에 미치지 못했다고 평가<br><span class=na>사이버캡 출시 행사가 투자자들의 기대치를 충족시키지 못함.</span> <a href="https://news.google.com/rss/articles/CBMi8AFBVV95cUxQNnJNY0ZrdWJVb0hYNTlxNDRXb0tRNnZpT3FIdEpzYUsteGtLazQyTUdsX3RkU3VYaWc3c0FiWDFtMjlVUUJVdDVORDhlRnZOcFUzSjhhTGdRTTFmVF94TllfYVNRazBuNXFzSXZiUjF0eWNSUndRZC1vZkRjUFRGcWRYWWlHbVlKUF84cnF6b2kwZWF5V3BCX2VEaENMQWh0NDZpdmJTc3lZM0hzMGNwVHYybWJGTmpIel81ZUNuS05ZNjdCUHdfWFJPcWE5bWJGNEZ6SmZBREQyZVdYbVdjV21pcXNCNkoyZVJ3ZUEzMVk?oc=5" target="_blank" rel="noopener">Stocktwits</a></li></ul></div></section><section class="tk"><div class="tkh"><h2>LG전자</h2><span class="tick">LG전자 · KRX:066570</span></div><div class="empty">신규 외사 리포트(의견·목표가) 없음</div></section><section class="tk"><div class="tkh"><h2>하나머티리얼즈</h2><span class="tick">하나머티리얼즈 · KOSDAQ:166090</span></div><div class="empty">신규 외사 리포트(의견·목표가) 없음</div></section>
+<footer>
+<p>출처: Google News(한·영) 검색으로 찾은 언론 보도. 외사 리포트 원문(유료)은 수집하지 않으며, 보도되지 않은 리포트는 빠질 수 있습니다.
+수치는 기사 원문에 적힌 값만 사용하고 원문과 대조되지 않은 값은 비웠습니다. 현재가: Yahoo Finance.</p>
+<p>봇 ib_digest v1.1.0 · LLM gemini-3.1-flash-lite</p>
+<div class="disc">투자 참고용. 최종 판단은 본인 책임</div></footer>
+</div></body></html>
